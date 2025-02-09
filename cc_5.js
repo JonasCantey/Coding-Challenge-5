@@ -93,4 +93,13 @@ function applyDiscount(amount, discountRate) {      //Created a function that ta
     return amount * (1 - discountRate)              //and returns amount * (1-discount rate)
 }
 
-console.log(`Discounted price: ${applyDiscount(83, 0.1)}`)
+console.log(`Discounted price: ${applyDiscount(83, 0.1)}`) //console.logged the function and input discount and amount
+
+//Task 10
+console.log("Task 10")
+
+function calculatePoints(purchaseAmount) {      //Created a function that takes a purchase amount, divides
+    return Math.round(purchaseAmount/10)        //by 10, and rounds to the nearest integer
+}
+
+console.log(`Congratulations, you have earned ${calculatePoints(132)} points!`) //console.logged and input purchase amount
