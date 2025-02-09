@@ -56,3 +56,13 @@ let filteredInventory = inventory.filter((quantity) => {    //Used filter comman
 });
 
 console.log(`Inventory in stock: ${filteredInventory}`)
+
+//Task 6
+console.log("Task 6")
+
+let sales = [500, 300, 200, 400];       //Declared array of 4 prices
+let totalRevenue = sales.reduce((accumulator, currentValue) => {    //Made a reduce method to add all sales
+    return accumulator + currentValue;                              //and return the total revenue
+}, 0);
+
+console.log(`Total revenue: ${totalRevenue}`)
