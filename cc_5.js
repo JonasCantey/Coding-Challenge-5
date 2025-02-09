@@ -86,3 +86,11 @@ function calculateTax(amount, taxRate) {    //Declared a function that uses amou
 
 console.log(`Tax amount: ${calculateTax(1200, 0.06)}`)      //Logged the function and input values for the function
 
+//Task 9
+console.log("Task 9")
+
+function applyDiscount(amount, discountRate) {      //Created a function that takes an amount and discount rate
+    return amount * (1 - discountRate)              //and returns amount * (1-discount rate)
+}
+
+console.log(`Discounted price: ${applyDiscount(83, 0.1)}`)
