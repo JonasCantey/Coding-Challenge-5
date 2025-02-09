@@ -24,3 +24,14 @@ displayOrder() {           //Used a method called displayOrder which logged each
 }
 };
 order.displayOrder();      //Called the method to action
+
+//Task 3
+console.log("Task 3")
+
+let cartItems = [ "Keyboard", "Mouse", "Iphone"] //Declared new array with three items in it
+cartItems.push("Headset")                        //Added item to the array
+cartItems.pop()                                  //Removed the last item of the array
+cartItems.unshift("Mousepad")                    //Added item to the beginning of the array
+cartItems.shift()                                //Removed item from the beginning of the array
+
+console.log(`Items in cart: ${cartItems}`)
