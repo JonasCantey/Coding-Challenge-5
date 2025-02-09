@@ -76,3 +76,13 @@ let findCustomer = customers.find((customer) => {   //Used find method to search
 });
 
 console.log(`Found customer: ${findCustomer}`)
+
+//Task 8
+console.log("Task 8")
+
+function calculateTax(amount, taxRate) {
+   return amount * taxRate
+}
+
+console.log(`Tax amount: ${calculateTax(1200, 0.06)}`)
+
