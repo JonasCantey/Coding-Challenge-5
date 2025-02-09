@@ -46,3 +46,13 @@ let discountedPrices = prices.map((price) => {  //Used a .map command to apply a
 })
 
 console.log(`Prices after adjustment: ${discountedPrices}`)
+
+//Task 5
+console.log("Task 5")
+
+let inventory = [5, 0, 12, 8, 0]    //Declared array with 5 quantities
+let filteredInventory = inventory.filter((quantity) => {    //Used filter command to return quantities that
+    return quantity > 0;                                    //are greater than 0
+});
+
+console.log(`Inventory in stock: ${filteredInventory}`)
