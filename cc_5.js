@@ -35,3 +35,14 @@ cartItems.unshift("Mousepad")                    //Added item to the beginning o
 cartItems.shift()                                //Removed item from the beginning of the array
 
 console.log(`Items in cart: ${cartItems}`)
+
+//Task 4
+console.log("Task 4")
+
+let prices = [100,200,300]      //Declared an array of prices
+let discountPercent = 0.1
+let discountedPrices = prices.map((price) => {  //Used a .map command to apply a 10% discount to 
+    return price * (1 - discountPercent)        //every number in the array
+})
+
+console.log(`Prices after adjustment: ${discountedPrices}`)
