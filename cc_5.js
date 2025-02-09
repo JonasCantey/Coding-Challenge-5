@@ -80,9 +80,9 @@ console.log(`Found customer: ${findCustomer}`)
 //Task 8
 console.log("Task 8")
 
-function calculateTax(amount, taxRate) {
-   return amount * taxRate
+function calculateTax(amount, taxRate) {    //Declared a function that uses amount and taxRate
+   return amount * taxRate                  //and return amount * taxRate
 }
 
-console.log(`Tax amount: ${calculateTax(1200, 0.06)}`)
+console.log(`Tax amount: ${calculateTax(1200, 0.06)}`)      //Logged the function and input values for the function
 
