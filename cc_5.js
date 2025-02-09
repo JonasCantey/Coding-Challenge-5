@@ -66,3 +66,13 @@ let totalRevenue = sales.reduce((accumulator, currentValue) => {    //Made a red
 }, 0);
 
 console.log(`Total revenue: ${totalRevenue}`)
+
+//Task 7
+console.log("Task 7")
+
+customers = ["Alice", "Bob", "Charlie", "David"]    //Declared array of 4 customers
+let findCustomer = customers.find((customer) => {   //Used find method to search for a string "Charlie"
+    return customer === "Charlie";                  //in the array and return if found
+});
+
+console.log(`Found customer: ${findCustomer}`)
